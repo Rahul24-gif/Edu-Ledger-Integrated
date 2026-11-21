@@ -1,0 +1,6 @@
+{
+  "name": "EduLedger Integrated Fee Tracker",
+  "description": "Academic Year & Batch-wise Integrated Fee Management System with automatic Class XI to Class XII cross-year student progression, live fee synchronization, and analytical payment reporting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

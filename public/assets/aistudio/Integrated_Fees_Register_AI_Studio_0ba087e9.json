@@ -1,0 +1,4352 @@
+{
+  "document_title": "Integrated Fees Register",
+  "source_file": "3c61398d-ab11-439f-9f31-6f3456a61e73.xlsx",
+  "description": "Workbook data exported sheet-by-sheet. Original worksheet layout and cell positions are preserved. Formula cells are represented as Excel formula strings beginning with =.",
+  "worksheets": [
+    {
+      "sheet_name": "Consolidated Sheet",
+      "max_row": 161,
+      "max_column": 9,
+      "rows": [
+        {
+          "row_number": 1,
+          "cells": {
+            "A": "INTEGRATED FEES REGISTER — CONSOLIDATED (ALL STUDENTS)"
+          }
+        },
+        {
+          "row_number": 2,
+          "cells": {
+            "A": "Complete Master Database across Both Batches (143 Students with Dynamic Formulas)"
+          }
+        },
+        {
+          "row_number": 4,
+          "cells": {
+            "A": "FORMULA-BASED EXECUTIVE SUMMARY & STUDENT COUNTS (ALL 143 STUDENTS)"
+          }
+        },
+        {
+          "row_number": 5,
+          "cells": {
+            "A": "Sr.",
+            "B": "Status Category",
+            "C": "Batch 2025-26 Count",
+            "D": "Batch 2026-27 Count",
+            "E": "Total Students \nCount",
+            "F": "Class XI Paid (₹)",
+            "G": "Class XII Paid (₹)",
+            "H": "Total Paid (₹)",
+            "I": "Status Description / Remarks"
+          }
+        },
+        {
+          "row_number": 6,
+          "cells": {
+            "A": 1,
+            "B": "Full Paid",
+            "C": "=COUNTIFS($C$18:$C$160, \"Batch 2025-26\", $I$18:$I$160, B6)",
+            "D": "=COUNTIFS($C$18:$C$160, \"Batch 2026-27\", $I$18:$I$160, B6)",
+            "E": "=COUNTIF($I$18:$I$160, B6)",
+            "F": "=SUMIFS($E$18:$E$160, $I$18:$I$160, B6)",
+            "G": "=SUMIFS($G$18:$G$160, $I$18:$I$160, B6)",
+            "H": "=SUMIF($I$18:$I$160, B6, $H$18:$H$160)",
+            "I": "Dono saal (XI + XII) ka complete payment ho chuka hai (₹20,000)"
+          }
+        },
+        {
+          "row_number": 7,
+          "cells": {
+            "A": 2,
+            "B": "Only XI Paid",
+            "C": "=COUNTIFS($C$18:$C$160, \"Batch 2025-26\", $I$18:$I$160, B7)",
+            "D": "=COUNTIFS($C$18:$C$160, \"Batch 2026-27\", $I$18:$I$160, B7)",
+            "E": "=COUNTIF($I$18:$I$160, B7)",
+            "F": "=SUMIFS($E$18:$E$160, $I$18:$I$160, B7)",
+            "G": "=SUMIFS($G$18:$G$160, $I$18:$I$160, B7)",
+            "H": "=SUMIF($I$18:$I$160, B7, $H$18:$H$160)",
+            "I": "Current batch (26-27) ke students, XII fees agle saal due hogi (₹10,000)"
+          }
+        },
+        {
+          "row_number": 8,
+          "cells": {
+            "A": 3,
+            "B": "XII Pending",
+            "C": "=COUNTIFS($C$18:$C$160, \"Batch 2025-26\", $I$18:$I$160, B8)",
+            "D": "=COUNTIFS($C$18:$C$160, \"Batch 2026-27\", $I$18:$I$160, B8)",
+            "E": "=COUNTIF($I$18:$I$160, B8)",
+            "F": "=SUMIFS($E$18:$E$160, $I$18:$I$160, B8)",
+            "G": "=SUMIFS($G$18:$G$160, $I$18:$I$160, B8)",
+            "H": "=SUMIF($I$18:$I$160, B8, $H$18:$H$160)",
+            "I": "Last year batch (25-26) ke students, XI Paid hai, XII fees follow-up baaki hai"
+          }
+        },
+        {
+          "row_number": 9,
+          "cells": {
+            "A": 4,
+            "B": "XII Will Pay June 26",
+            "C": "=COUNTIFS($C$18:$C$160, \"Batch 2025-26\", $I$18:$I$160, B9)",
+            "D": "=COUNTIFS($C$18:$C$160, \"Batch 2026-27\", $I$18:$I$160, B9)",
+            "E": "=COUNTIF($I$18:$I$160, B9)",
+            "F": "=SUMIFS($E$18:$E$160, $I$18:$I$160, B9)",
+            "G": "=SUMIFS($G$18:$G$160, $I$18:$I$160, B9)",
+            "H": "=SUMIF($I$18:$I$160, B9, $H$18:$H$160)",
+            "I": "Atharv Kesarwani (June 2026 me Class XII fee payment promised)"
+          }
+        },
+        {
+          "row_number": 10,
+          "cells": {
+            "A": 5,
+            "B": "Direct XII Paid",
+            "C": "=COUNTIFS($C$18:$C$160, \"Batch 2025-26\", $I$18:$I$160, B10)",
+            "D": "=COUNTIFS($C$18:$C$160, \"Batch 2026-27\", $I$18:$I$160, B10)",
+            "E": "=COUNTIF($I$18:$I$160, B10)",
+            "F": "=SUMIFS($E$18:$E$160, $I$18:$I$160, B10)",
+            "G": "=SUMIFS($G$18:$G$160, $I$18:$I$160, B10)",
+            "H": "=SUMIF($I$18:$I$160, B10, $H$18:$H$160)",
+            "I": "Vihan Varma & Bijesh Prathapani (Direct Class XII admission)"
+          }
+        },
+        {
+          "row_number": 11,
+          "cells": {
+            "A": 6,
+            "B": "Partial Paid (₹5k Due)",
+            "C": "=COUNTIFS($C$18:$C$160, \"Batch 2025-26\", $I$18:$I$160, B11)",
+            "D": "=COUNTIFS($C$18:$C$160, \"Batch 2026-27\", $I$18:$I$160, B11)",
+            "E": "=COUNTIF($I$18:$I$160, B11)",
+            "F": "=SUMIFS($E$18:$E$160, $I$18:$I$160, B11)",
+            "G": "=SUMIFS($G$18:$G$160, $I$18:$I$160, B11)",
+            "H": "=SUMIF($I$18:$I$160, B11, $H$18:$H$160)",
+            "I": "Ayushi Epilli (XI ka ₹5,000 balance lena baaki hai)"
+          }
+        },
+        {
+          "row_number": 12,
+          "cells": {
+            "A": 7,
+            "B": "Fee Pending",
+            "C": "=COUNTIFS($C$18:$C$160, \"Batch 2025-26\", $I$18:$I$160, B12)",
+            "D": "=COUNTIFS($C$18:$C$160, \"Batch 2026-27\", $I$18:$I$160, B12)",
+            "E": "=COUNTIF($I$18:$I$160, B12)",
+            "F": "=SUMIFS($E$18:$E$160, $I$18:$I$160, B12)",
+            "G": "=SUMIFS($G$18:$G$160, $I$18:$I$160, B12)",
+            "H": "=SUMIF($I$18:$I$160, B12, $H$18:$H$160)",
+            "I": "Roster students jinka intermediate register me record nahi hai (₹0 Paid)"
+          }
+        },
+        {
+          "row_number": 13,
+          "cells": {
+            "A": 8,
+            "B": "Admission Cancelled",
+            "C": "=COUNTIFS($C$18:$C$160, \"Batch 2025-26\", $I$18:$I$160, B13)",
+            "D": "=COUNTIFS($C$18:$C$160, \"Batch 2026-27\", $I$18:$I$160, B13)",
+            "E": "=COUNTIF($I$18:$I$160, B13)",
+            "F": "=SUMIFS($E$18:$E$160, $I$18:$I$160, B13)",
+            "G": "=SUMIFS($G$18:$G$160, $I$18:$I$160, B13)",
+            "H": "=SUMIF($I$18:$I$160, B13, $H$18:$H$160)",
+            "I": "Chinmay Dhenge (05/07/2025 ko admission cancel hua)"
+          }
+        },
+        {
+          "row_number": 14,
+          "cells": {
+            "B": "TOTAL",
+            "C": "=SUM(C6:C13)",
+            "D": "=SUM(D6:D13)",
+            "E": "=SUM(E6:E13)",
+            "F": "=SUM(F6:F13)",
+            "G": "=SUM(G6:G13)",
+            "H": "=SUM(H6:H13)",
+            "I": "=\"Overall Fees Collection: \" & TEXT(H14, \"₹#,##0\")"
+          }
+        },
+        {
+          "row_number": 16,
+          "cells": {
+            "A": "XI",
+            "F": "XII",
+            "H": "Total Paid (₹)",
+            "I": "Remark"
+          }
+        },
+        {
+          "row_number": 17,
+          "cells": {
+            "A": "Sr. No.",
+            "B": "Student Name",
+            "C": "Batch",
+            "D": "Date",
+            "E": "Payment Amount (₹)",
+            "F": "Date",
+            "G": "Payment Amount (₹)"
+          }
+        },
+        {
+          "row_number": 18,
+          "cells": {
+            "A": 1,
+            "B": "Shurya Kumar Sivaraman",
+            "C": "Batch 2025-26",
+            "D": "24/05/2025",
+            "E": 10000,
+            "F": "04/04/2026",
+            "G": 10000,
+            "H": "=E18+G18",
+            "I": "Full Paid"
+          }
+        },
+        {
+          "row_number": 19,
+          "cells": {
+            "A": 2,
+            "B": "Barira  Chainwala",
+            "C": "Batch 2025-26",
+            "D": "26/05/2025",
+            "E": 10000,
+            "F": "23/04/2026",
+            "G": 10000,
+            "H": "=E19+G19",
+            "I": "Full Paid"
+          }
+        },
+        {
+          "row_number": 20,
+          "cells": {
+            "A": 3,
+            "B": "Divya mukesh patil",
+            "C": "Batch 2025-26",
+            "D": "27/05/2025",
+            "E": 10000,
+            "F": "04/04/2026",
+            "G": 10000,
+            "H": "=E20+G20",
+            "I": "Full Paid"
+          }
+        },
+        {
+          "row_number": 21,
+          "cells": {
+            "A": 4,
+            "B": "Tejal Gopal",
+            "C": "Batch 2025-26",
+            "D": "29/05/2025",
+            "E": 10000,
+            "F": "04/04/2026",
+            "G": 10000,
+            "H": "=E21+G21",
+            "I": "Full Paid"
+          }
+        },
+        {
+          "row_number": 22,
+          "cells": {
+            "A": 5,
+            "B": "Kartike pankajkumar gupta",
+            "C": "Batch 2025-26",
+            "D": "May 2025",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E22+G22",
+            "I": "XII Pending"
+          }
+        },
+        {
+          "row_number": 23,
+          "cells": {
+            "A": 6,
+            "B": "VAIBHAV KUMAR",
+            "C": "Batch 2025-26",
+            "D": "May 2025",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E23+G23",
+            "I": "XII Pending"
+          }
+        },
+        {
+          "row_number": 24,
+          "cells": {
+            "A": 7,
+            "B": "Akshara Ranjeet Shah",
+            "C": "Batch 2025-26",
+            "D": "27/05/2025",
+            "E": 10000,
+            "F": "04/04/2026",
+            "G": 10000,
+            "H": "=E24+G24",
+            "I": "Full Paid"
+          }
+        },
+        {
+          "row_number": 25,
+          "cells": {
+            "A": 8,
+            "B": "Parth Pankaj Rane",
+            "C": "Batch 2025-26",
+            "D": "02/07/2025",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E25+G25",
+            "I": "XII Pending"
+          }
+        },
+        {
+          "row_number": 26,
+          "cells": {
+            "A": 9,
+            "B": "Aditi  Sharma",
+            "C": "Batch 2025-26",
+            "D": "27/05/2025",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E26+G26",
+            "I": "XII Pending"
+          }
+        },
+        {
+          "row_number": 27,
+          "cells": {
+            "A": 10,
+            "B": "Siya Sachin MHATRE",
+            "C": "Batch 2025-26",
+            "D": "27/05/2025",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E27+G27",
+            "I": "XII Pending"
+          }
+        },
+        {
+          "row_number": 28,
+          "cells": {
+            "A": 11,
+            "B": "Ravi Narayanan Narayanan",
+            "C": "Batch 2025-26",
+            "D": "28/05/2025",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E28+G28",
+            "I": "XII Pending"
+          }
+        },
+        {
+          "row_number": 29,
+          "cells": {
+            "A": 12,
+            "B": "Kherati Sunder",
+            "C": "Batch 2025-26",
+            "D": "27/05/2025",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E29+G29",
+            "I": "XII Pending"
+          }
+        },
+        {
+          "row_number": 30,
+          "cells": {
+            "A": 13,
+            "B": "Vedant Padmakar Bhoir",
+            "C": "Batch 2025-26",
+            "D": "28/05/2025",
+            "E": 10000,
+            "F": "04/04/2026",
+            "G": 10000,
+            "H": "=E30+G30",
+            "I": "Full Paid"
+          }
+        },
+        {
+          "row_number": 31,
+          "cells": {
+            "A": 14,
+            "B": "NlMISH KUNJAN KANDALKAR",
+            "C": "Batch 2025-26",
+            "D": "27/05/2025",
+            "E": 10000,
+            "F": "06/04/2026",
+            "G": 10000,
+            "H": "=E31+G31",
+            "I": "Full Paid"
+          }
+        },
+        {
+          "row_number": 32,
+          "cells": {
+            "A": 15,
+            "B": "Anandi Sunil Thate",
+            "C": "Batch 2025-26",
+            "D": "27/05/2025",
+            "E": 10000,
+            "F": "06/06/2026",
+            "G": 10000,
+            "H": "=E32+G32",
+            "I": "Full Paid"
+          }
+        },
+        {
+          "row_number": 33,
+          "cells": {
+            "A": 16,
+            "B": "SIDDHI CHAUDHARI",
+            "C": "Batch 2025-26",
+            "D": "27/05/2025",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E33+G33",
+            "I": "XII Pending"
+          }
+        },
+        {
+          "row_number": 34,
+          "cells": {
+            "A": 17,
+            "B": "Shruta Viraj Ranade",
+            "C": "Batch 2025-26",
+            "D": "27/05/2025",
+            "E": 10000,
+            "F": "04/04/2026",
+            "G": 10000,
+            "H": "=E34+G34",
+            "I": "Full Paid"
+          }
+        },
+        {
+          "row_number": 35,
+          "cells": {
+            "A": 18,
+            "B": "Shrinika Ramesh kumar shetty",
+            "C": "Batch 2025-26",
+            "D": "27/05/2025",
+            "E": 10000,
+            "F": "04/04/2026",
+            "G": 10000,
+            "H": "=E35+G35",
+            "I": "Full Paid"
+          }
+        },
+        {
+          "row_number": 36,
+          "cells": {
+            "A": 19,
+            "B": "Sanskruti Atul Naphade",
+            "C": "Batch 2025-26",
+            "D": "02/07/2025",
+            "E": 10000,
+            "F": "13/06/2026",
+            "G": 10000,
+            "H": "=E36+G36",
+            "I": "Full Paid"
+          }
+        },
+        {
+          "row_number": 37,
+          "cells": {
+            "A": 20,
+            "B": "maahibhanushalibhanushali",
+            "C": "Batch 2025-26",
+            "D": "27/05/2025",
+            "E": 10000,
+            "F": "04/04/2026",
+            "G": 10000,
+            "H": "=E37+G37",
+            "I": "Full Paid"
+          }
+        },
+        {
+          "row_number": 38,
+          "cells": {
+            "A": 21,
+            "B": "AARADHYA GHAGGHAG GHAG",
+            "C": "Batch 2025-26",
+            "D": "27/05/2025",
+            "E": 10000,
+            "F": "08/04/2026",
+            "G": 10000,
+            "H": "=E38+G38",
+            "I": "Full Paid"
+          }
+        },
+        {
+          "row_number": 39,
+          "cells": {
+            "A": 22,
+            "B": "Geetika Vijaykumar Ghumed",
+            "C": "Batch 2025-26",
+            "D": "27/05/2025",
+            "E": 10000,
+            "F": "04/04/2026",
+            "G": 10000,
+            "H": "=E39+G39",
+            "I": "Full Paid"
+          }
+        },
+        {
+          "row_number": 40,
+          "cells": {
+            "A": 23,
+            "B": "Vedika Santosh Gore",
+            "C": "Batch 2025-26",
+            "D": "29/05/2025",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E40+G40",
+            "I": "XII Pending"
+          }
+        },
+        {
+          "row_number": 41,
+          "cells": {
+            "A": 24,
+            "B": "SHREYA DASH",
+            "C": "Batch 2025-26",
+            "D": "27/05/2025",
+            "E": 10000,
+            "F": "22/08/2026",
+            "G": 10000,
+            "H": "=E41+G41",
+            "I": "Full Paid"
+          }
+        },
+        {
+          "row_number": 42,
+          "cells": {
+            "A": 25,
+            "B": "Diksha Bharti",
+            "C": "Batch 2025-26",
+            "D": "30/05/2025",
+            "E": 10000,
+            "F": "18/06/2026",
+            "G": 10000,
+            "H": "=E42+G42",
+            "I": "Full Paid"
+          }
+        },
+        {
+          "row_number": 43,
+          "cells": {
+            "A": 26,
+            "B": "Ishika Raju Arakh",
+            "C": "Batch 2025-26",
+            "D": "29/05/2025",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E43+G43",
+            "I": "XII Pending"
+          }
+        },
+        {
+          "row_number": 44,
+          "cells": {
+            "A": 27,
+            "B": "Neeharika Naresha Prabhu",
+            "C": "Batch 2025-26",
+            "D": "29/05/2025",
+            "E": 10000,
+            "F": "08/04/2026",
+            "G": 10000,
+            "H": "=E44+G44",
+            "I": "Full Paid"
+          }
+        },
+        {
+          "row_number": 45,
+          "cells": {
+            "A": 28,
+            "B": "Gargi Pankaj Patil Patil",
+            "C": "Batch 2025-26",
+            "D": "27/05/2025",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E45+G45",
+            "I": "XII Pending"
+          }
+        },
+        {
+          "row_number": 46,
+          "cells": {
+            "A": 29,
+            "B": "Shurami Jadhav",
+            "C": "Batch 2025-26",
+            "D": "29/05/2025",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E46+G46",
+            "I": "XII Pending"
+          }
+        },
+        {
+          "row_number": 47,
+          "cells": {
+            "A": 30,
+            "B": "Jui Pramod Mali",
+            "C": "Batch 2025-26",
+            "D": "11/06/2025",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E47+G47",
+            "I": "XII Pending"
+          }
+        },
+        {
+          "row_number": 48,
+          "cells": {
+            "A": 31,
+            "B": "ARUNDEEPIKA MURMU",
+            "C": "Batch 2025-26",
+            "D": "29/05/2025",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E48+G48",
+            "I": "XII Pending"
+          }
+        },
+        {
+          "row_number": 49,
+          "cells": {
+            "A": 32,
+            "B": "Anushka Sandeep Singh",
+            "C": "Batch 2025-26",
+            "D": "29/05/2025",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E49+G49",
+            "I": "XII Pending"
+          }
+        },
+        {
+          "row_number": 50,
+          "cells": {
+            "A": 33,
+            "B": "Shreetej Vikas Shinde",
+            "C": "Batch 2025-26",
+            "D": "29/05/2025",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E50+G50",
+            "I": "XII Pending"
+          }
+        },
+        {
+          "row_number": 51,
+          "cells": {
+            "A": 34,
+            "B": "Ayush sameer Rajeshirke",
+            "C": "Batch 2025-26",
+            "D": "29/05/2025",
+            "E": 10000,
+            "F": "04/04/2026",
+            "G": 10000,
+            "H": "=E51+G51",
+            "I": "Full Paid"
+          }
+        },
+        {
+          "row_number": 52,
+          "cells": {
+            "A": 35,
+            "B": "Ishita Roy",
+            "C": "Batch 2025-26",
+            "D": "29/05/2025",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E52+G52",
+            "I": "XII Pending"
+          }
+        },
+        {
+          "row_number": 53,
+          "cells": {
+            "A": 36,
+            "B": "Shivam Hariprasad Dev",
+            "C": "Batch 2025-26",
+            "D": "23/07/2025",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E53+G53",
+            "I": "XII Pending"
+          }
+        },
+        {
+          "row_number": 54,
+          "cells": {
+            "A": 37,
+            "B": "NaVya Vijay Singh",
+            "C": "Batch 2025-26",
+            "D": "May 2025",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E54+G54",
+            "I": "XII Pending"
+          }
+        },
+        {
+          "row_number": 55,
+          "cells": {
+            "A": 38,
+            "B": "Ketaki vishal khairnar",
+            "C": "Batch 2025-26",
+            "D": "May 2025",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E55+G55",
+            "I": "XII Pending"
+          }
+        },
+        {
+          "row_number": 56,
+          "cells": {
+            "A": 39,
+            "B": "Samudyatha Hemappa Belagal",
+            "C": "Batch 2025-26",
+            "D": "May 2025",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E56+G56",
+            "I": "XII Pending"
+          }
+        },
+        {
+          "row_number": 57,
+          "cells": {
+            "A": 40,
+            "B": "Sumita Sushil Sharma",
+            "C": "Batch 2025-26",
+            "D": "May 2025",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E57+G57",
+            "I": "XII Pending"
+          }
+        },
+        {
+          "row_number": 58,
+          "cells": {
+            "A": 41,
+            "B": "Mugdha Nayan Ballal",
+            "C": "Batch 2025-26",
+            "D": "-",
+            "E": 0,
+            "F": "-",
+            "G": 0,
+            "H": "=E58+G58",
+            "I": "Fee Pending"
+          }
+        },
+        {
+          "row_number": 59,
+          "cells": {
+            "A": 42,
+            "B": "Urmika Jayakumar -",
+            "C": "Batch 2025-26",
+            "D": "May 2025",
+            "E": 10000,
+            "F": "03/04/2026",
+            "G": 10000,
+            "H": "=E59+G59",
+            "I": "Full Paid"
+          }
+        },
+        {
+          "row_number": 60,
+          "cells": {
+            "A": 43,
+            "B": "Aryan Amol Zagade",
+            "C": "Batch 2025-26",
+            "D": "May 2025",
+            "E": 10000,
+            "F": "10/04/2026",
+            "G": 10000,
+            "H": "=E60+G60",
+            "I": "Full Paid"
+          }
+        },
+        {
+          "row_number": 61,
+          "cells": {
+            "A": 44,
+            "B": "Pawan Sanjay Tiwari",
+            "C": "Batch 2025-26",
+            "D": "May 2025",
+            "E": 10000,
+            "F": "17/06/2026",
+            "G": 10000,
+            "H": "=E61+G61",
+            "I": "Full Paid"
+          }
+        },
+        {
+          "row_number": 62,
+          "cells": {
+            "A": 45,
+            "B": "Vaibhav brijesh shukla",
+            "C": "Batch 2025-26",
+            "D": "May 2025",
+            "E": 10000,
+            "F": "04/04/2026",
+            "G": 10000,
+            "H": "=E62+G62",
+            "I": "Full Paid"
+          }
+        },
+        {
+          "row_number": 63,
+          "cells": {
+            "A": 46,
+            "B": "Atharv Kesarwani",
+            "C": "Batch 2025-26",
+            "D": "May 2025",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E63+G63",
+            "I": "XII Will Pay June 26"
+          }
+        },
+        {
+          "row_number": 64,
+          "cells": {
+            "A": 47,
+            "B": "Preeti Balram Yadav",
+            "C": "Batch 2025-26",
+            "D": "May 2025",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E64+G64",
+            "I": "XII Pending"
+          }
+        },
+        {
+          "row_number": 65,
+          "cells": {
+            "A": 48,
+            "B": "Rajdeep sinh k Jadeja",
+            "C": "Batch 2025-26",
+            "D": "May 2025",
+            "E": 10000,
+            "F": "11/05/2026",
+            "G": 10000,
+            "H": "=E65+G65",
+            "I": "Full Paid"
+          }
+        },
+        {
+          "row_number": 66,
+          "cells": {
+            "A": 49,
+            "B": "Arya Vikas Ajgaonkar",
+            "C": "Batch 2025-26",
+            "D": "May 2025",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E66+G66",
+            "I": "XII Pending"
+          }
+        },
+        {
+          "row_number": 67,
+          "cells": {
+            "A": 50,
+            "B": "Isha Ugrasen Yadav",
+            "C": "Batch 2025-26",
+            "D": "May 2025",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E67+G67",
+            "I": "XII Pending"
+          }
+        },
+        {
+          "row_number": 68,
+          "cells": {
+            "A": 51,
+            "B": "Isha Atul Chaudhari",
+            "C": "Batch 2025-26",
+            "D": "May 2025",
+            "E": 10000,
+            "F": "11/04/2026",
+            "G": 10000,
+            "H": "=E68+G68",
+            "I": "Full Paid"
+          }
+        },
+        {
+          "row_number": 69,
+          "cells": {
+            "A": 52,
+            "B": "Ankan Abhijit Khanra",
+            "C": "Batch 2025-26",
+            "D": "May 2025",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E69+G69",
+            "I": "XII Pending"
+          }
+        },
+        {
+          "row_number": 70,
+          "cells": {
+            "A": 53,
+            "B": "Aayushi Sadanand Epili",
+            "C": "Batch 2025-26",
+            "D": "May 2025",
+            "E": 5000,
+            "F": "-",
+            "G": 0,
+            "H": "=E70+G70",
+            "I": "Partial Paid (₹5k Due)"
+          }
+        },
+        {
+          "row_number": 71,
+          "cells": {
+            "A": 54,
+            "B": "Chinmay Dhenge",
+            "C": "Batch 2025-26",
+            "D": "05/07/2025",
+            "E": 0,
+            "F": "-",
+            "G": 0,
+            "H": "=E71+G71",
+            "I": "Admission Cancelled"
+          }
+        },
+        {
+          "row_number": 72,
+          "cells": {
+            "A": 55,
+            "B": "Dhanashree Shingne",
+            "C": "Batch 2025-26",
+            "D": "05/08/2025",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E72+G72",
+            "I": "XII Pending"
+          }
+        },
+        {
+          "row_number": 73,
+          "cells": {
+            "A": 56,
+            "B": "Shravani Sunil Kale",
+            "C": "Batch 2025-26",
+            "D": "27/05/2025",
+            "E": 10000,
+            "F": "09/04/2026",
+            "G": 10000,
+            "H": "=E73+G73",
+            "I": "Full Paid"
+          }
+        },
+        {
+          "row_number": 74,
+          "cells": {
+            "A": 57,
+            "B": "Kshiti Dwarkadhish Gupta",
+            "C": "Batch 2025-26",
+            "D": "08/07/2025",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E74+G74",
+            "I": "XII Pending"
+          }
+        },
+        {
+          "row_number": 75,
+          "cells": {
+            "A": 58,
+            "B": "AASHI GUPTA",
+            "C": "Batch 2025-26",
+            "D": "-",
+            "E": 0,
+            "F": "-",
+            "G": 0,
+            "H": "=E75+G75",
+            "I": "Fee Pending"
+          }
+        },
+        {
+          "row_number": 76,
+          "cells": {
+            "A": 59,
+            "B": "Vihan Abhishek Varma",
+            "C": "Batch 2025-26",
+            "D": "-",
+            "E": 0,
+            "F": "23/03/2026",
+            "G": 10000,
+            "H": "=E76+G76",
+            "I": "Direct XII Paid"
+          }
+        },
+        {
+          "row_number": 77,
+          "cells": {
+            "A": 60,
+            "B": "Bijesh Prathapani",
+            "C": "Batch 2025-26",
+            "D": "-",
+            "E": 0,
+            "F": "14/04/2026",
+            "G": 10000,
+            "H": "=E77+G77",
+            "I": "Direct XII Paid"
+          }
+        },
+        {
+          "row_number": 78,
+          "cells": {
+            "A": 61,
+            "B": "Aryan Rohit Bavadia",
+            "C": "Batch 2026-27",
+            "D": "21/03/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E78+G78",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 79,
+          "cells": {
+            "A": 62,
+            "B": "Shaurya Barun Singh",
+            "C": "Batch 2026-27",
+            "D": "25/05/2026",
+            "E": 10000,
+            "F": "25/05/2026",
+            "G": 10000,
+            "H": "=E79+G79",
+            "I": "Full Paid"
+          }
+        },
+        {
+          "row_number": 80,
+          "cells": {
+            "A": 63,
+            "B": "Pranjal Ritesh Kamerkar",
+            "C": "Batch 2026-27",
+            "D": "06/06/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E80+G80",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 81,
+          "cells": {
+            "A": 64,
+            "B": "Shaurya Manoj Mimani",
+            "C": "Batch 2026-27",
+            "D": "29/04/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E81+G81",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 82,
+          "cells": {
+            "A": 65,
+            "B": "TANVI ULHAS PATIL",
+            "C": "Batch 2026-27",
+            "D": "29/04/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E82+G82",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 83,
+          "cells": {
+            "A": 66,
+            "B": "Shubham Sujay Rana",
+            "C": "Batch 2026-27",
+            "D": "07/05/2026",
+            "E": 10000,
+            "F": "07/05/2026",
+            "G": 10000,
+            "H": "=E83+G83",
+            "I": "Full Paid"
+          }
+        },
+        {
+          "row_number": 84,
+          "cells": {
+            "A": 67,
+            "B": "Chandrima CHANDAN Rana",
+            "C": "Batch 2026-27",
+            "D": "07/05/2026",
+            "E": 10000,
+            "F": "07/05/2026",
+            "G": 10000,
+            "H": "=E84+G84",
+            "I": "Full Paid"
+          }
+        },
+        {
+          "row_number": 85,
+          "cells": {
+            "A": 68,
+            "B": "Sarthak Raju Gaikwad",
+            "C": "Batch 2026-27",
+            "D": "12/05/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E85+G85",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 86,
+          "cells": {
+            "A": 69,
+            "B": "Durvank Ravindra Bhagat",
+            "C": "Batch 2026-27",
+            "D": "07/05/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E86+G86",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 87,
+          "cells": {
+            "A": 70,
+            "B": "Salman NAYER Shaikh",
+            "C": "Batch 2026-27",
+            "D": "07/05/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E87+G87",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 88,
+          "cells": {
+            "A": 71,
+            "B": "Ayush Anant Bhushan Pandey",
+            "C": "Batch 2026-27",
+            "D": "08/05/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E88+G88",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 89,
+          "cells": {
+            "A": 72,
+            "B": "Tanishka Sushant Patil",
+            "C": "Batch 2026-27",
+            "D": "08/05/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E89+G89",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 90,
+          "cells": {
+            "A": 73,
+            "B": "Shravani Paresh Patil",
+            "C": "Batch 2026-27",
+            "D": "08/05/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E90+G90",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 91,
+          "cells": {
+            "A": 74,
+            "B": "Rudrakshi Vijay Chavan",
+            "C": "Batch 2026-27",
+            "D": "09/05/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E91+G91",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 92,
+          "cells": {
+            "A": 75,
+            "B": "Siddhant Gawade",
+            "C": "Batch 2026-27",
+            "D": "09/05/2026",
+            "E": 10000,
+            "F": "07/07/2026",
+            "G": 10000,
+            "H": "=E92+G92",
+            "I": "Full Paid"
+          }
+        },
+        {
+          "row_number": 93,
+          "cells": {
+            "A": 76,
+            "B": "Manav Gorakhnath Mhatre",
+            "C": "Batch 2026-27",
+            "D": "12/05/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E93+G93",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 94,
+          "cells": {
+            "A": 77,
+            "B": "Aditi Adhikary",
+            "C": "Batch 2026-27",
+            "D": "22/08/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E94+G94",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 95,
+          "cells": {
+            "A": 78,
+            "B": "Chiranjivi SINGH",
+            "C": "Batch 2026-27",
+            "D": "12/05/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E95+G95",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 96,
+          "cells": {
+            "A": 79,
+            "B": "Tanvi Naval Patil",
+            "C": "Batch 2026-27",
+            "D": "15/05/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E96+G96",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 97,
+          "cells": {
+            "A": 80,
+            "B": "Krish Vindeshwar Shah",
+            "C": "Batch 2026-27",
+            "D": "15/05/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E97+G97",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 98,
+          "cells": {
+            "A": 81,
+            "B": "KARUNYA SADAN KADAM",
+            "C": "Batch 2026-27",
+            "D": "16/05/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E98+G98",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 99,
+          "cells": {
+            "A": 82,
+            "B": "Meet Arihant Chordiya",
+            "C": "Batch 2026-27",
+            "D": "18/05/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E99+G99",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 100,
+          "cells": {
+            "A": 83,
+            "B": "Hansika Santoah Rajput",
+            "C": "Batch 2026-27",
+            "D": "20/05/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E100+G100",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 101,
+          "cells": {
+            "A": 84,
+            "B": "Tanishka Tushar Mukkirwar",
+            "C": "Batch 2026-27",
+            "D": "20/05/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E101+G101",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 102,
+          "cells": {
+            "A": 85,
+            "B": "Rishikesh Jay Pandey",
+            "C": "Batch 2026-27",
+            "D": "21/05/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E102+G102",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 103,
+          "cells": {
+            "A": 86,
+            "B": "Anushree Surve",
+            "C": "Batch 2026-27",
+            "D": "23/05/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E103+G103",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 104,
+          "cells": {
+            "A": 87,
+            "B": "Armaan Muhimtule",
+            "C": "Batch 2026-27",
+            "D": "26/05/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E104+G104",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 105,
+          "cells": {
+            "A": 88,
+            "B": "Komal Nandlal Varma",
+            "C": "Batch 2026-27",
+            "D": "26/05/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E105+G105",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 106,
+          "cells": {
+            "A": 89,
+            "B": "Prajoyat Pradip Bhunia",
+            "C": "Batch 2026-27",
+            "D": "26/05/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E106+G106",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 107,
+          "cells": {
+            "A": 90,
+            "B": "Anushka Soumitro Das",
+            "C": "Batch 2026-27",
+            "D": "29/05/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E107+G107",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 108,
+          "cells": {
+            "A": 91,
+            "B": "Tanish Ganesh Shinde",
+            "C": "Batch 2026-27",
+            "D": "-",
+            "E": 0,
+            "F": "-",
+            "G": 0,
+            "H": "=E108+G108",
+            "I": "Fee Pending"
+          }
+        },
+        {
+          "row_number": 109,
+          "cells": {
+            "A": 92,
+            "B": "Tanvi Satish Tiwari",
+            "C": "Batch 2026-27",
+            "D": "30/05/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E109+G109",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 110,
+          "cells": {
+            "A": 93,
+            "B": "Ekta Sahani",
+            "C": "Batch 2026-27",
+            "D": "01/06/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E110+G110",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 111,
+          "cells": {
+            "A": 94,
+            "B": "Piyush Mahendra Neharkar",
+            "C": "Batch 2026-27",
+            "D": "01/06/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E111+G111",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 112,
+          "cells": {
+            "A": 95,
+            "B": "Jayaditya Vijay Shendre",
+            "C": "Batch 2026-27",
+            "D": "02/06/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E112+G112",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 113,
+          "cells": {
+            "A": 96,
+            "B": "Swarit Prasahnt Dhenge",
+            "C": "Batch 2026-27",
+            "D": "02/06/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E113+G113",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 114,
+          "cells": {
+            "A": 97,
+            "B": "Praful Sawan Rathod",
+            "C": "Batch 2026-27",
+            "D": "06/06/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E114+G114",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 115,
+          "cells": {
+            "A": 98,
+            "B": "Rahul Vinod Mendon",
+            "C": "Batch 2026-27",
+            "D": "06/06/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E115+G115",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 116,
+          "cells": {
+            "A": 99,
+            "B": "Hansika Girish Joshi",
+            "C": "Batch 2026-27",
+            "D": "11/06/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E116+G116",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 117,
+          "cells": {
+            "A": 100,
+            "B": "Vedant Chandrashekhar Keny",
+            "C": "Batch 2026-27",
+            "D": "-",
+            "E": 0,
+            "F": "-",
+            "G": 0,
+            "H": "=E117+G117",
+            "I": "Fee Pending"
+          }
+        },
+        {
+          "row_number": 118,
+          "cells": {
+            "A": 101,
+            "B": "Vaishnavi Dharmendra Chandra",
+            "C": "Batch 2026-27",
+            "D": "11/06/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E118+G118",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 119,
+          "cells": {
+            "A": 102,
+            "B": "Avi Ajeet Mishra",
+            "C": "Batch 2026-27",
+            "D": "16/06/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E119+G119",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 120,
+          "cells": {
+            "A": 103,
+            "B": "Neel Rohit Pipalia",
+            "C": "Batch 2026-27",
+            "D": "-",
+            "E": 0,
+            "F": "-",
+            "G": 0,
+            "H": "=E120+G120",
+            "I": "Fee Pending"
+          }
+        },
+        {
+          "row_number": 121,
+          "cells": {
+            "A": 104,
+            "B": "Ayush Kumar Sinha",
+            "C": "Batch 2026-27",
+            "D": "22/06/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E121+G121",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 122,
+          "cells": {
+            "A": 105,
+            "B": "Vidhi Sandeep Gole",
+            "C": "Batch 2026-27",
+            "D": "-",
+            "E": 0,
+            "F": "-",
+            "G": 0,
+            "H": "=E122+G122",
+            "I": "Fee Pending"
+          }
+        },
+        {
+          "row_number": 123,
+          "cells": {
+            "A": 106,
+            "B": "Sohan Kaiwalya Mate",
+            "C": "Batch 2026-27",
+            "D": "14/07/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E123+G123",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 124,
+          "cells": {
+            "A": 107,
+            "B": "Amritanshu Ramanand Tiwari",
+            "C": "Batch 2026-27",
+            "D": "17/07/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E124+G124",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 125,
+          "cells": {
+            "A": 108,
+            "B": "Sarvam Devanand Pandey",
+            "C": "Batch 2026-27",
+            "D": "-",
+            "E": 0,
+            "F": "-",
+            "G": 0,
+            "H": "=E125+G125",
+            "I": "Fee Pending"
+          }
+        },
+        {
+          "row_number": 126,
+          "cells": {
+            "A": 109,
+            "B": "Maahi Hiren Hindlekar",
+            "C": "Batch 2026-27",
+            "D": "06/05/2026",
+            "E": 10000,
+            "F": "07/05/2026",
+            "G": 10000,
+            "H": "=E126+G126",
+            "I": "Full Paid"
+          }
+        },
+        {
+          "row_number": 127,
+          "cells": {
+            "A": 110,
+            "B": "Manasvi mahesh sawant",
+            "C": "Batch 2026-27",
+            "D": "07/05/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E127+G127",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 128,
+          "cells": {
+            "A": 111,
+            "B": "Harshika Kishor Marathe",
+            "C": "Batch 2026-27",
+            "D": "08/05/2026",
+            "E": 10000,
+            "F": "08/05/2026",
+            "G": 10000,
+            "H": "=E128+G128",
+            "I": "Full Paid"
+          }
+        },
+        {
+          "row_number": 129,
+          "cells": {
+            "A": 112,
+            "B": "Kinjal Sunil Shinde",
+            "C": "Batch 2026-27",
+            "D": "16/05/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E129+G129",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 130,
+          "cells": {
+            "A": 113,
+            "B": "Sakshi Herode",
+            "C": "Batch 2026-27",
+            "D": "19/05/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E130+G130",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 131,
+          "cells": {
+            "A": 114,
+            "B": "Shruti Gopal Telang",
+            "C": "Batch 2026-27",
+            "D": "01/06/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E131+G131",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 132,
+          "cells": {
+            "A": 115,
+            "B": "Devansh Kamlesh Verma",
+            "C": "Batch 2026-27",
+            "D": "01/06/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E132+G132",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 133,
+          "cells": {
+            "A": 116,
+            "B": "Srujan Sarangdhar Shinde",
+            "C": "Batch 2026-27",
+            "D": "01/06/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E133+G133",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 134,
+          "cells": {
+            "A": 117,
+            "B": "Shravani Kiran Sontate",
+            "C": "Batch 2026-27",
+            "D": "01/06/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E134+G134",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 135,
+          "cells": {
+            "A": 118,
+            "B": "Anukalp Dhananjay Singh",
+            "C": "Batch 2026-27",
+            "D": "02/06/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E135+G135",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 136,
+          "cells": {
+            "A": 119,
+            "B": "Deep Pankaj Kokate",
+            "C": "Batch 2026-27",
+            "D": "06/06/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E136+G136",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 137,
+          "cells": {
+            "A": 120,
+            "B": "Vaishnavi Rajesh Chaurasia",
+            "C": "Batch 2026-27",
+            "D": "11/06/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E137+G137",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 138,
+          "cells": {
+            "A": 121,
+            "B": "Maniraj Amit Jadhav",
+            "C": "Batch 2026-27",
+            "D": "11/06/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E138+G138",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 139,
+          "cells": {
+            "A": 122,
+            "B": "Priya Dharmendra Rajbhar",
+            "C": "Batch 2026-27",
+            "D": "17/06/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E139+G139",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 140,
+          "cells": {
+            "A": 123,
+            "B": "Anshika Ramanand Tiwari",
+            "C": "Batch 2026-27",
+            "D": "17/07/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E140+G140",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 141,
+          "cells": {
+            "A": 124,
+            "B": "Avni Arvind Choudhary",
+            "C": "Batch 2026-27",
+            "D": "06/07/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E141+G141",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 142,
+          "cells": {
+            "A": 125,
+            "B": "Aarya Jayesh Thakur",
+            "C": "Batch 2026-27",
+            "D": "-",
+            "E": 0,
+            "F": "-",
+            "G": 0,
+            "H": "=E142+G142",
+            "I": "Fee Pending"
+          }
+        },
+        {
+          "row_number": 143,
+          "cells": {
+            "A": 126,
+            "B": "Rudra Rajan Prasad",
+            "C": "Batch 2026-27",
+            "D": "-",
+            "E": 0,
+            "F": "-",
+            "G": 0,
+            "H": "=E143+G143",
+            "I": "Fee Pending"
+          }
+        },
+        {
+          "row_number": 144,
+          "cells": {
+            "A": 127,
+            "B": "Prachiti Yogesh Kamble",
+            "C": "Batch 2026-27",
+            "D": "-",
+            "E": 0,
+            "F": "-",
+            "G": 0,
+            "H": "=E144+G144",
+            "I": "Fee Pending"
+          }
+        },
+        {
+          "row_number": 145,
+          "cells": {
+            "A": 128,
+            "B": "Harshal Dharmendra Patil",
+            "C": "Batch 2026-27",
+            "D": "-",
+            "E": 0,
+            "F": "-",
+            "G": 0,
+            "H": "=E145+G145",
+            "I": "Fee Pending"
+          }
+        },
+        {
+          "row_number": 146,
+          "cells": {
+            "A": 129,
+            "B": "Tanmay Nilesh Bhoir",
+            "C": "Batch 2026-27",
+            "D": "-",
+            "E": 0,
+            "F": "-",
+            "G": 0,
+            "H": "=E146+G146",
+            "I": "Fee Pending"
+          }
+        },
+        {
+          "row_number": 147,
+          "cells": {
+            "A": 130,
+            "B": "Vedica Pankaj Keer",
+            "C": "Batch 2026-27",
+            "D": "02/06/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E147+G147",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 148,
+          "cells": {
+            "A": 131,
+            "B": "Adhrit Kaushik Guha",
+            "C": "Batch 2026-27",
+            "D": "03/06/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E148+G148",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 149,
+          "cells": {
+            "A": 132,
+            "B": "Supriya HITESH Chauhan",
+            "C": "Batch 2026-27",
+            "D": "05/06/2026",
+            "E": 10000,
+            "F": "05/06/2026",
+            "G": 10000,
+            "H": "=E149+G149",
+            "I": "Full Paid"
+          }
+        },
+        {
+          "row_number": 150,
+          "cells": {
+            "A": 133,
+            "B": "HITESH DHANORKAR",
+            "C": "Batch 2026-27",
+            "D": "06/06/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E150+G150",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 151,
+          "cells": {
+            "A": 134,
+            "B": "Uttam Ashok Sisodiya",
+            "C": "Batch 2026-27",
+            "D": "08/06/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E151+G151",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 152,
+          "cells": {
+            "A": 135,
+            "B": "Padmaja Chintan Kouloorkar",
+            "C": "Batch 2026-27",
+            "D": "11/06/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E152+G152",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 153,
+          "cells": {
+            "A": 136,
+            "B": "ShantanuPatilPatil",
+            "C": "Batch 2026-27",
+            "D": "13/06/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E153+G153",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 154,
+          "cells": {
+            "A": 137,
+            "B": "Niti Joshi",
+            "C": "Batch 2026-27",
+            "D": "13/06/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E154+G154",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 155,
+          "cells": {
+            "A": 138,
+            "B": "Granthik Bhadale",
+            "C": "Batch 2026-27",
+            "D": "16/06/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E155+G155",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 156,
+          "cells": {
+            "A": 139,
+            "B": "Ansh Rajesh Sayla",
+            "C": "Batch 2026-27",
+            "D": "-",
+            "E": 0,
+            "F": "-",
+            "G": 0,
+            "H": "=E156+G156",
+            "I": "Fee Pending"
+          }
+        },
+        {
+          "row_number": 157,
+          "cells": {
+            "A": 140,
+            "B": "Ichha Ashish Shrimali",
+            "C": "Batch 2026-27",
+            "D": "07/07/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E157+G157",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 158,
+          "cells": {
+            "A": 141,
+            "B": "Shravani Sunil Shinde",
+            "C": "Batch 2026-27",
+            "D": "10/07/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E158+G158",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 159,
+          "cells": {
+            "A": 142,
+            "B": "Pranav Rajaram Warang",
+            "C": "Batch 2026-27",
+            "D": "16/07/2026",
+            "E": 10000,
+            "F": "-",
+            "G": 0,
+            "H": "=E159+G159",
+            "I": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 160,
+          "cells": {
+            "A": 143,
+            "B": "Zayeem Kabeer Ahamed",
+            "C": "Batch 2026-27",
+            "D": "-",
+            "E": 0,
+            "F": "-",
+            "G": 0,
+            "H": "=E160+G160",
+            "I": "Fee Pending"
+          }
+        },
+        {
+          "row_number": 161,
+          "cells": {
+            "A": "=COUNT(A18:A160)",
+            "B": "=\"TOTAL (\" & COUNTA(B18:B160) & \" STUDENTS)\"",
+            "C": "=\"25-26: \" & COUNTIF(C18:C160, \"Batch 2025-26\") & \" | 26-27: \" & COUNTIF(C18:C160, \"Batch 2026-27\")",
+            "E": "=SUM(E18:E160)",
+            "G": "=SUM(G18:G160)",
+            "H": "=SUM(H18:H160)",
+            "I": "=\"Full Paid: \" & COUNTIF(I18:I160, \"Full Paid\") & \" | Pending/Due: \" & (COUNTIF(I18:I160, \"*Pending*\") + COUNTIF(I18:I160, \"*Will Pay*\"))"
+          }
+        }
+      ]
+    },
+    {
+      "sheet_name": "Batch 2025-26",
+      "max_row": 64,
+      "max_column": 8,
+      "rows": [
+        {
+          "row_number": 1,
+          "cells": {
+            "A": "INTEGRATED FEES REGISTER — BATCH 2025–26 (LAST YEAR BATCH)"
+          }
+        },
+        {
+          "row_number": 2,
+          "cells": {
+            "A": "Std. XI (A.Y. 2025-26) & Std. XII (A.Y. 2026-27)"
+          }
+        },
+        {
+          "row_number": 4,
+          "cells": {
+            "A": "Sr. No.",
+            "B": "Student Name",
+            "C": "XI - Science",
+            "E": "XII - Science",
+            "G": "Total Paid (₹)",
+            "H": "Remark"
+          }
+        },
+        {
+          "row_number": 5,
+          "cells": {
+            "C": "Date",
+            "D": "Payment Amount (₹)",
+            "E": "Date",
+            "F": "Payment Amount (₹)"
+          }
+        },
+        {
+          "row_number": 6,
+          "cells": {
+            "A": 1,
+            "B": "Shurya Kumar Sivaraman",
+            "C": "24/05/2025",
+            "D": 10000,
+            "E": "04/04/2026",
+            "F": 10000,
+            "G": "=D6+F6",
+            "H": "Full Paid"
+          }
+        },
+        {
+          "row_number": 7,
+          "cells": {
+            "A": 2,
+            "B": "Barira  Chainwala",
+            "C": "26/05/2025",
+            "D": 10000,
+            "E": "23/04/2026",
+            "F": 10000,
+            "G": "=D7+F7",
+            "H": "Full Paid"
+          }
+        },
+        {
+          "row_number": 8,
+          "cells": {
+            "A": 3,
+            "B": "Divya mukesh patil",
+            "C": "27/05/2025",
+            "D": 10000,
+            "E": "04/04/2026",
+            "F": 10000,
+            "G": "=D8+F8",
+            "H": "Full Paid"
+          }
+        },
+        {
+          "row_number": 9,
+          "cells": {
+            "A": 4,
+            "B": "Tejal Gopal",
+            "C": "29/05/2025",
+            "D": 10000,
+            "E": "04/04/2026",
+            "F": 10000,
+            "G": "=D9+F9",
+            "H": "Full Paid"
+          }
+        },
+        {
+          "row_number": 10,
+          "cells": {
+            "A": 5,
+            "B": "Kartike pankajkumar gupta",
+            "C": "May 2025",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D10+F10",
+            "H": "XII Pending"
+          }
+        },
+        {
+          "row_number": 11,
+          "cells": {
+            "A": 6,
+            "B": "VAIBHAV KUMAR",
+            "C": "May 2025",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D11+F11",
+            "H": "XII Pending"
+          }
+        },
+        {
+          "row_number": 12,
+          "cells": {
+            "A": 7,
+            "B": "Akshara Ranjeet Shah",
+            "C": "27/05/2025",
+            "D": 10000,
+            "E": "04/04/2026",
+            "F": 10000,
+            "G": "=D12+F12",
+            "H": "Full Paid"
+          }
+        },
+        {
+          "row_number": 13,
+          "cells": {
+            "A": 8,
+            "B": "Parth Pankaj Rane",
+            "C": "02/07/2025",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D13+F13",
+            "H": "XII Pending"
+          }
+        },
+        {
+          "row_number": 14,
+          "cells": {
+            "A": 9,
+            "B": "Aditi  Sharma",
+            "C": "27/05/2025",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D14+F14",
+            "H": "XII Pending"
+          }
+        },
+        {
+          "row_number": 15,
+          "cells": {
+            "A": 10,
+            "B": "Siya Sachin MHATRE",
+            "C": "27/05/2025",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D15+F15",
+            "H": "XII Pending"
+          }
+        },
+        {
+          "row_number": 16,
+          "cells": {
+            "A": 11,
+            "B": "Ravi Narayanan Narayanan",
+            "C": "28/05/2025",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D16+F16",
+            "H": "XII Pending"
+          }
+        },
+        {
+          "row_number": 17,
+          "cells": {
+            "A": 12,
+            "B": "Kherati Sunder",
+            "C": "27/05/2025",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D17+F17",
+            "H": "XII Pending"
+          }
+        },
+        {
+          "row_number": 18,
+          "cells": {
+            "A": 13,
+            "B": "Vedant Padmakar Bhoir",
+            "C": "28/05/2025",
+            "D": 10000,
+            "E": "04/04/2026",
+            "F": 10000,
+            "G": "=D18+F18",
+            "H": "Full Paid"
+          }
+        },
+        {
+          "row_number": 19,
+          "cells": {
+            "A": 14,
+            "B": "NlMISH KUNJAN KANDALKAR",
+            "C": "27/05/2025",
+            "D": 10000,
+            "E": "06/04/2026",
+            "F": 10000,
+            "G": "=D19+F19",
+            "H": "Full Paid"
+          }
+        },
+        {
+          "row_number": 20,
+          "cells": {
+            "A": 15,
+            "B": "Anandi Sunil Thate",
+            "C": "27/05/2025",
+            "D": 10000,
+            "E": "06/06/2026",
+            "F": 10000,
+            "G": "=D20+F20",
+            "H": "Full Paid"
+          }
+        },
+        {
+          "row_number": 21,
+          "cells": {
+            "A": 16,
+            "B": "SIDDHI CHAUDHARI",
+            "C": "27/05/2025",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D21+F21",
+            "H": "XII Pending"
+          }
+        },
+        {
+          "row_number": 22,
+          "cells": {
+            "A": 17,
+            "B": "Shruta Viraj Ranade",
+            "C": "27/05/2025",
+            "D": 10000,
+            "E": "04/04/2026",
+            "F": 10000,
+            "G": "=D22+F22",
+            "H": "Full Paid"
+          }
+        },
+        {
+          "row_number": 23,
+          "cells": {
+            "A": 18,
+            "B": "Shrinika Ramesh kumar shetty",
+            "C": "27/05/2025",
+            "D": 10000,
+            "E": "04/04/2026",
+            "F": 10000,
+            "G": "=D23+F23",
+            "H": "Full Paid"
+          }
+        },
+        {
+          "row_number": 24,
+          "cells": {
+            "A": 19,
+            "B": "Sanskruti Atul Naphade",
+            "C": "02/07/2025",
+            "D": 10000,
+            "E": "13/06/2026",
+            "F": 10000,
+            "G": "=D24+F24",
+            "H": "Full Paid"
+          }
+        },
+        {
+          "row_number": 25,
+          "cells": {
+            "A": 20,
+            "B": "maahibhanushalibhanushali",
+            "C": "27/05/2025",
+            "D": 10000,
+            "E": "04/04/2026",
+            "F": 10000,
+            "G": "=D25+F25",
+            "H": "Full Paid"
+          }
+        },
+        {
+          "row_number": 26,
+          "cells": {
+            "A": 21,
+            "B": "AARADHYA GHAGGHAG GHAG",
+            "C": "27/05/2025",
+            "D": 10000,
+            "E": "08/04/2026",
+            "F": 10000,
+            "G": "=D26+F26",
+            "H": "Full Paid"
+          }
+        },
+        {
+          "row_number": 27,
+          "cells": {
+            "A": 22,
+            "B": "Geetika Vijaykumar Ghumed",
+            "C": "27/05/2025",
+            "D": 10000,
+            "E": "04/04/2026",
+            "F": 10000,
+            "G": "=D27+F27",
+            "H": "Full Paid"
+          }
+        },
+        {
+          "row_number": 28,
+          "cells": {
+            "A": 23,
+            "B": "Vedika Santosh Gore",
+            "C": "29/05/2025",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D28+F28",
+            "H": "XII Pending"
+          }
+        },
+        {
+          "row_number": 29,
+          "cells": {
+            "A": 24,
+            "B": "SHREYA DASH",
+            "C": "27/05/2025",
+            "D": 10000,
+            "E": "22/08/2026",
+            "F": 10000,
+            "G": "=D29+F29",
+            "H": "Full Paid"
+          }
+        },
+        {
+          "row_number": 30,
+          "cells": {
+            "A": 25,
+            "B": "Diksha Bharti",
+            "C": "30/05/2025",
+            "D": 10000,
+            "E": "18/06/2026",
+            "F": 10000,
+            "G": "=D30+F30",
+            "H": "Full Paid"
+          }
+        },
+        {
+          "row_number": 31,
+          "cells": {
+            "A": 26,
+            "B": "Ishika Raju Arakh",
+            "C": "29/05/2025",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D31+F31",
+            "H": "XII Pending"
+          }
+        },
+        {
+          "row_number": 32,
+          "cells": {
+            "A": 27,
+            "B": "Neeharika Naresha Prabhu",
+            "C": "29/05/2025",
+            "D": 10000,
+            "E": "08/04/2026",
+            "F": 10000,
+            "G": "=D32+F32",
+            "H": "Full Paid"
+          }
+        },
+        {
+          "row_number": 33,
+          "cells": {
+            "A": 28,
+            "B": "Gargi Pankaj Patil Patil",
+            "C": "27/05/2025",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D33+F33",
+            "H": "XII Pending"
+          }
+        },
+        {
+          "row_number": 34,
+          "cells": {
+            "A": 29,
+            "B": "Shurami Jadhav",
+            "C": "29/05/2025",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D34+F34",
+            "H": "XII Pending"
+          }
+        },
+        {
+          "row_number": 35,
+          "cells": {
+            "A": 30,
+            "B": "Jui Pramod Mali",
+            "C": "11/06/2025",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D35+F35",
+            "H": "XII Pending"
+          }
+        },
+        {
+          "row_number": 36,
+          "cells": {
+            "A": 31,
+            "B": "ARUNDEEPIKA MURMU",
+            "C": "29/05/2025",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D36+F36",
+            "H": "XII Pending"
+          }
+        },
+        {
+          "row_number": 37,
+          "cells": {
+            "A": 32,
+            "B": "Anushka Sandeep Singh",
+            "C": "29/05/2025",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D37+F37",
+            "H": "XII Pending"
+          }
+        },
+        {
+          "row_number": 38,
+          "cells": {
+            "A": 33,
+            "B": "Shreetej Vikas Shinde",
+            "C": "29/05/2025",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D38+F38",
+            "H": "XII Pending"
+          }
+        },
+        {
+          "row_number": 39,
+          "cells": {
+            "A": 34,
+            "B": "Ayush sameer Rajeshirke",
+            "C": "29/05/2025",
+            "D": 10000,
+            "E": "04/04/2026",
+            "F": 10000,
+            "G": "=D39+F39",
+            "H": "Full Paid"
+          }
+        },
+        {
+          "row_number": 40,
+          "cells": {
+            "A": 35,
+            "B": "Ishita Roy",
+            "C": "29/05/2025",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D40+F40",
+            "H": "XII Pending"
+          }
+        },
+        {
+          "row_number": 41,
+          "cells": {
+            "A": 36,
+            "B": "Shivam Hariprasad Dev",
+            "C": "23/07/2025",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D41+F41",
+            "H": "XII Pending"
+          }
+        },
+        {
+          "row_number": 42,
+          "cells": {
+            "A": 37,
+            "B": "NaVya Vijay Singh",
+            "C": "May 2025",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D42+F42",
+            "H": "XII Pending"
+          }
+        },
+        {
+          "row_number": 43,
+          "cells": {
+            "A": 38,
+            "B": "Ketaki vishal khairnar",
+            "C": "May 2025",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D43+F43",
+            "H": "XII Pending"
+          }
+        },
+        {
+          "row_number": 44,
+          "cells": {
+            "A": 39,
+            "B": "Samudyatha Hemappa Belagal",
+            "C": "May 2025",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D44+F44",
+            "H": "XII Pending"
+          }
+        },
+        {
+          "row_number": 45,
+          "cells": {
+            "A": 40,
+            "B": "Sumita Sushil Sharma",
+            "C": "May 2025",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D45+F45",
+            "H": "XII Pending"
+          }
+        },
+        {
+          "row_number": 46,
+          "cells": {
+            "A": 41,
+            "B": "Urmika Jayakumar -",
+            "C": "May 2025",
+            "D": 10000,
+            "E": "03/04/2026",
+            "F": 10000,
+            "G": "=D46+F46",
+            "H": "Full Paid"
+          }
+        },
+        {
+          "row_number": 47,
+          "cells": {
+            "A": 42,
+            "B": "Aryan Amol Zagade",
+            "C": "May 2025",
+            "D": 10000,
+            "E": "10/04/2026",
+            "F": 10000,
+            "G": "=D47+F47",
+            "H": "Full Paid"
+          }
+        },
+        {
+          "row_number": 48,
+          "cells": {
+            "A": 43,
+            "B": "Pawan Sanjay Tiwari",
+            "C": "May 2025",
+            "D": 10000,
+            "E": "17/06/2026",
+            "F": 10000,
+            "G": "=D48+F48",
+            "H": "Full Paid"
+          }
+        },
+        {
+          "row_number": 49,
+          "cells": {
+            "A": 44,
+            "B": "Vaibhav brijesh shukla",
+            "C": "May 2025",
+            "D": 10000,
+            "E": "04/04/2026",
+            "F": 10000,
+            "G": "=D49+F49",
+            "H": "Full Paid"
+          }
+        },
+        {
+          "row_number": 50,
+          "cells": {
+            "A": 45,
+            "B": "Atharv Kesarwani",
+            "C": "May 2025",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D50+F50",
+            "H": "XII Will Pay June 26"
+          }
+        },
+        {
+          "row_number": 51,
+          "cells": {
+            "A": 46,
+            "B": "Preeti Balram Yadav",
+            "C": "May 2025",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D51+F51",
+            "H": "XII Pending"
+          }
+        },
+        {
+          "row_number": 52,
+          "cells": {
+            "A": 47,
+            "B": "Rajdeep sinh k Jadeja",
+            "C": "May 2025",
+            "D": 10000,
+            "E": "11/05/2026",
+            "F": 10000,
+            "G": "=D52+F52",
+            "H": "Full Paid"
+          }
+        },
+        {
+          "row_number": 53,
+          "cells": {
+            "A": 48,
+            "B": "Arya Vikas Ajgaonkar",
+            "C": "May 2025",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D53+F53",
+            "H": "XII Pending"
+          }
+        },
+        {
+          "row_number": 54,
+          "cells": {
+            "A": 49,
+            "B": "Isha Ugrasen Yadav",
+            "C": "May 2025",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D54+F54",
+            "H": "XII Pending"
+          }
+        },
+        {
+          "row_number": 55,
+          "cells": {
+            "A": 50,
+            "B": "Isha Atul Chaudhari",
+            "C": "May 2025",
+            "D": 10000,
+            "E": "11/04/2026",
+            "F": 10000,
+            "G": "=D55+F55",
+            "H": "Full Paid"
+          }
+        },
+        {
+          "row_number": 56,
+          "cells": {
+            "A": 51,
+            "B": "Ankan Abhijit Khanra",
+            "C": "May 2025",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D56+F56",
+            "H": "XII Pending"
+          }
+        },
+        {
+          "row_number": 57,
+          "cells": {
+            "A": 52,
+            "B": "Aayushi Sadanand Epili",
+            "C": "May 2025",
+            "D": 5000,
+            "E": "-",
+            "F": 0,
+            "G": "=D57+F57",
+            "H": "Partial Paid (₹5k Due)"
+          }
+        },
+        {
+          "row_number": 58,
+          "cells": {
+            "A": 53,
+            "B": "Chinmay Dhenge",
+            "C": "05/07/2025",
+            "D": 0,
+            "E": "-",
+            "F": 0,
+            "G": "=D58+F58",
+            "H": "Admission Cancelled"
+          }
+        },
+        {
+          "row_number": 59,
+          "cells": {
+            "A": 54,
+            "B": "Dhanashree Shingne",
+            "C": "05/08/2025",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D59+F59",
+            "H": "XII Pending"
+          }
+        },
+        {
+          "row_number": 60,
+          "cells": {
+            "A": 55,
+            "B": "Shravani Sunil Kale",
+            "C": "27/05/2025",
+            "D": 10000,
+            "E": "09/04/2026",
+            "F": 10000,
+            "G": "=D60+F60",
+            "H": "Full Paid"
+          }
+        },
+        {
+          "row_number": 61,
+          "cells": {
+            "A": 56,
+            "B": "Kshiti Dwarkadhish Gupta",
+            "C": "08/07/2025",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D61+F61",
+            "H": "XII Pending"
+          }
+        },
+        {
+          "row_number": 62,
+          "cells": {
+            "A": 57,
+            "B": "Vihan Abhishek Varma",
+            "C": "-",
+            "D": 0,
+            "E": "23/03/2026",
+            "F": 10000,
+            "G": "=D62+F62",
+            "H": "Direct XII Paid"
+          }
+        },
+        {
+          "row_number": 63,
+          "cells": {
+            "A": 58,
+            "B": "Bijesh Prathapani",
+            "C": "-",
+            "D": 0,
+            "E": "14/04/2026",
+            "F": 10000,
+            "G": "=D63+F63",
+            "H": "Direct XII Paid"
+          }
+        },
+        {
+          "row_number": 64,
+          "cells": {
+            "A": "=COUNT(A6:A63)",
+            "B": "=\"TOTAL (\" & COUNTA(B6:B63) & \" STUDENTS)\"",
+            "D": "=SUM(D6:D63)",
+            "F": "=SUM(F6:F63)",
+            "G": "=SUM(G6:G63)",
+            "H": "=\"Full Paid: \" & COUNTIF(H6:H63, \"Full Paid\") & \" | XII Pending: \" & COUNTIF(H6:H63, \"*Pending*\")"
+          }
+        }
+      ]
+    },
+    {
+      "sheet_name": "Batch 2026-27",
+      "max_row": 77,
+      "max_column": 8,
+      "rows": [
+        {
+          "row_number": 1,
+          "cells": {
+            "A": "INTEGRATED FEES REGISTER — BATCH 2026–27 (CURRENT BATCH)"
+          }
+        },
+        {
+          "row_number": 2,
+          "cells": {
+            "A": "Std. XI Admissions (A.Y. 2026-27) & Advance XII Fees"
+          }
+        },
+        {
+          "row_number": 4,
+          "cells": {
+            "A": "Sr. No.",
+            "B": "Student Name",
+            "C": "XI - Science",
+            "E": "XII - Science",
+            "G": "Total Paid (₹)",
+            "H": "Remark"
+          }
+        },
+        {
+          "row_number": 5,
+          "cells": {
+            "C": "Date",
+            "D": "Payment Amount (₹)",
+            "E": "Date",
+            "F": "Payment Amount (₹)"
+          }
+        },
+        {
+          "row_number": 6,
+          "cells": {
+            "A": 1,
+            "B": "Aryan Rohit Bavadia",
+            "C": "21/03/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D6+F6",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 7,
+          "cells": {
+            "A": 2,
+            "B": "Shaurya Barun Singh",
+            "C": "25/05/2026",
+            "D": 10000,
+            "E": "25/05/2026",
+            "F": 10000,
+            "G": "=D7+F7",
+            "H": "Full Paid"
+          }
+        },
+        {
+          "row_number": 8,
+          "cells": {
+            "A": 3,
+            "B": "Pranjal Ritesh Kamerkar",
+            "C": "06/06/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D8+F8",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 9,
+          "cells": {
+            "A": 4,
+            "B": "Shaurya Manoj Mimani",
+            "C": "29/04/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D9+F9",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 10,
+          "cells": {
+            "A": 5,
+            "B": "TANVI ULHAS PATIL",
+            "C": "29/04/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D10+F10",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 11,
+          "cells": {
+            "A": 6,
+            "B": "Shubham Sujay Rana",
+            "C": "07/05/2026",
+            "D": 10000,
+            "E": "07/05/2026",
+            "F": 10000,
+            "G": "=D11+F11",
+            "H": "Full Paid"
+          }
+        },
+        {
+          "row_number": 12,
+          "cells": {
+            "A": 7,
+            "B": "Chandrima CHANDAN Rana",
+            "C": "07/05/2026",
+            "D": 10000,
+            "E": "07/05/2026",
+            "F": 10000,
+            "G": "=D12+F12",
+            "H": "Full Paid"
+          }
+        },
+        {
+          "row_number": 13,
+          "cells": {
+            "A": 8,
+            "B": "Sarthak Raju Gaikwad",
+            "C": "12/05/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D13+F13",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 14,
+          "cells": {
+            "A": 9,
+            "B": "Durvank Ravindra Bhagat",
+            "C": "07/05/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D14+F14",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 15,
+          "cells": {
+            "A": 10,
+            "B": "Salman NAYER Shaikh",
+            "C": "07/05/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D15+F15",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 16,
+          "cells": {
+            "A": 11,
+            "B": "Ayush Anant Bhushan Pandey",
+            "C": "08/05/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D16+F16",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 17,
+          "cells": {
+            "A": 12,
+            "B": "Tanishka Sushant Patil",
+            "C": "08/05/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D17+F17",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 18,
+          "cells": {
+            "A": 13,
+            "B": "Shravani Paresh Patil",
+            "C": "08/05/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D18+F18",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 19,
+          "cells": {
+            "A": 14,
+            "B": "Rudrakshi Vijay Chavan",
+            "C": "09/05/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D19+F19",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 20,
+          "cells": {
+            "A": 15,
+            "B": "Siddhant Gawade",
+            "C": "09/05/2026",
+            "D": 10000,
+            "E": "07/07/2026",
+            "F": 10000,
+            "G": "=D20+F20",
+            "H": "Full Paid"
+          }
+        },
+        {
+          "row_number": 21,
+          "cells": {
+            "A": 16,
+            "B": "Manav Gorakhnath Mhatre",
+            "C": "12/05/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D21+F21",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 22,
+          "cells": {
+            "A": 17,
+            "B": "Aditi Adhikary",
+            "C": "22/08/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D22+F22",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 23,
+          "cells": {
+            "A": 18,
+            "B": "Chiranjivi SINGH",
+            "C": "12/05/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D23+F23",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 24,
+          "cells": {
+            "A": 19,
+            "B": "Tanvi Naval Patil",
+            "C": "15/05/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D24+F24",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 25,
+          "cells": {
+            "A": 20,
+            "B": "Krish Vindeshwar Shah",
+            "C": "15/05/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D25+F25",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 26,
+          "cells": {
+            "A": 21,
+            "B": "KARUNYA SADAN KADAM",
+            "C": "16/05/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D26+F26",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 27,
+          "cells": {
+            "A": 22,
+            "B": "Meet Arihant Chordiya",
+            "C": "18/05/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D27+F27",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 28,
+          "cells": {
+            "A": 23,
+            "B": "Hansika Santoah Rajput",
+            "C": "20/05/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D28+F28",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 29,
+          "cells": {
+            "A": 24,
+            "B": "Tanishka Tushar Mukkirwar",
+            "C": "20/05/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D29+F29",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 30,
+          "cells": {
+            "A": 25,
+            "B": "Rishikesh Jay Pandey",
+            "C": "21/05/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D30+F30",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 31,
+          "cells": {
+            "A": 26,
+            "B": "Anushree Surve",
+            "C": "23/05/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D31+F31",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 32,
+          "cells": {
+            "A": 27,
+            "B": "Armaan Muhimtule",
+            "C": "26/05/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D32+F32",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 33,
+          "cells": {
+            "A": 28,
+            "B": "Komal Nandlal Varma",
+            "C": "26/05/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D33+F33",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 34,
+          "cells": {
+            "A": 29,
+            "B": "Prajoyat Pradip Bhunia",
+            "C": "26/05/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D34+F34",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 35,
+          "cells": {
+            "A": 30,
+            "B": "Anushka Soumitro Das",
+            "C": "29/05/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D35+F35",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 36,
+          "cells": {
+            "A": 31,
+            "B": "Tanvi Satish Tiwari",
+            "C": "30/05/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D36+F36",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 37,
+          "cells": {
+            "A": 32,
+            "B": "Ekta Sahani",
+            "C": "01/06/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D37+F37",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 38,
+          "cells": {
+            "A": 33,
+            "B": "Piyush Mahendra Neharkar",
+            "C": "01/06/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D38+F38",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 39,
+          "cells": {
+            "A": 34,
+            "B": "Jayaditya Vijay Shendre",
+            "C": "02/06/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D39+F39",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 40,
+          "cells": {
+            "A": 35,
+            "B": "Swarit Prasahnt Dhenge",
+            "C": "02/06/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D40+F40",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 41,
+          "cells": {
+            "A": 36,
+            "B": "Praful Sawan Rathod",
+            "C": "06/06/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D41+F41",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 42,
+          "cells": {
+            "A": 37,
+            "B": "Rahul Vinod Mendon",
+            "C": "06/06/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D42+F42",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 43,
+          "cells": {
+            "A": 38,
+            "B": "Hansika Girish Joshi",
+            "C": "11/06/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D43+F43",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 44,
+          "cells": {
+            "A": 39,
+            "B": "Vaishnavi Dharmendra Chandra",
+            "C": "11/06/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D44+F44",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 45,
+          "cells": {
+            "A": 40,
+            "B": "Avi Ajeet Mishra",
+            "C": "16/06/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D45+F45",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 46,
+          "cells": {
+            "A": 41,
+            "B": "Ayush Kumar Sinha",
+            "C": "22/06/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D46+F46",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 47,
+          "cells": {
+            "A": 42,
+            "B": "Sohan Kaiwalya Mate",
+            "C": "14/07/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D47+F47",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 48,
+          "cells": {
+            "A": 43,
+            "B": "Amritanshu Ramanand Tiwari",
+            "C": "17/07/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D48+F48",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 49,
+          "cells": {
+            "A": 44,
+            "B": "Maahi Hiren Hindlekar",
+            "C": "06/05/2026",
+            "D": 10000,
+            "E": "07/05/2026",
+            "F": 10000,
+            "G": "=D49+F49",
+            "H": "Full Paid"
+          }
+        },
+        {
+          "row_number": 50,
+          "cells": {
+            "A": 45,
+            "B": "Manasvi mahesh sawant",
+            "C": "07/05/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D50+F50",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 51,
+          "cells": {
+            "A": 46,
+            "B": "Harshika Kishor Marathe",
+            "C": "08/05/2026",
+            "D": 10000,
+            "E": "08/05/2026",
+            "F": 10000,
+            "G": "=D51+F51",
+            "H": "Full Paid"
+          }
+        },
+        {
+          "row_number": 52,
+          "cells": {
+            "A": 47,
+            "B": "Kinjal Sunil Shinde",
+            "C": "16/05/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D52+F52",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 53,
+          "cells": {
+            "A": 48,
+            "B": "Sakshi Herode",
+            "C": "19/05/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D53+F53",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 54,
+          "cells": {
+            "A": 49,
+            "B": "Shruti Gopal Telang",
+            "C": "01/06/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D54+F54",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 55,
+          "cells": {
+            "A": 50,
+            "B": "Devansh Kamlesh Verma",
+            "C": "01/06/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D55+F55",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 56,
+          "cells": {
+            "A": 51,
+            "B": "Srujan Sarangdhar Shinde",
+            "C": "01/06/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D56+F56",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 57,
+          "cells": {
+            "A": 52,
+            "B": "Shravani Kiran Sontate",
+            "C": "01/06/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D57+F57",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 58,
+          "cells": {
+            "A": 53,
+            "B": "Anukalp Dhananjay Singh",
+            "C": "02/06/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D58+F58",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 59,
+          "cells": {
+            "A": 54,
+            "B": "Deep Pankaj Kokate",
+            "C": "06/06/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D59+F59",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 60,
+          "cells": {
+            "A": 55,
+            "B": "Vaishnavi Rajesh Chaurasia",
+            "C": "11/06/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D60+F60",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 61,
+          "cells": {
+            "A": 56,
+            "B": "Maniraj Amit Jadhav",
+            "C": "11/06/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D61+F61",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 62,
+          "cells": {
+            "A": 57,
+            "B": "Priya Dharmendra Rajbhar",
+            "C": "17/06/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D62+F62",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 63,
+          "cells": {
+            "A": 58,
+            "B": "Anshika Ramanand Tiwari",
+            "C": "17/07/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D63+F63",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 64,
+          "cells": {
+            "A": 59,
+            "B": "Avni Arvind Choudhary",
+            "C": "06/07/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D64+F64",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 65,
+          "cells": {
+            "A": 60,
+            "B": "Vedica Pankaj Keer",
+            "C": "02/06/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D65+F65",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 66,
+          "cells": {
+            "A": 61,
+            "B": "Adhrit Kaushik Guha",
+            "C": "03/06/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D66+F66",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 67,
+          "cells": {
+            "A": 62,
+            "B": "Supriya HITESH Chauhan",
+            "C": "05/06/2026",
+            "D": 10000,
+            "E": "05/06/2026",
+            "F": 10000,
+            "G": "=D67+F67",
+            "H": "Full Paid"
+          }
+        },
+        {
+          "row_number": 68,
+          "cells": {
+            "A": 63,
+            "B": "HITESH DHANORKAR",
+            "C": "06/06/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D68+F68",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 69,
+          "cells": {
+            "A": 64,
+            "B": "Uttam Ashok Sisodiya",
+            "C": "08/06/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D69+F69",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 70,
+          "cells": {
+            "A": 65,
+            "B": "Padmaja Chintan Kouloorkar",
+            "C": "11/06/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D70+F70",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 71,
+          "cells": {
+            "A": 66,
+            "B": "ShantanuPatilPatil",
+            "C": "13/06/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D71+F71",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 72,
+          "cells": {
+            "A": 67,
+            "B": "Niti Joshi",
+            "C": "13/06/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D72+F72",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 73,
+          "cells": {
+            "A": 68,
+            "B": "Granthik Bhadale",
+            "C": "16/06/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D73+F73",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 74,
+          "cells": {
+            "A": 69,
+            "B": "Ichha Ashish Shrimali",
+            "C": "07/07/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D74+F74",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 75,
+          "cells": {
+            "A": 70,
+            "B": "Shravani Sunil Shinde",
+            "C": "10/07/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D75+F75",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 76,
+          "cells": {
+            "A": 71,
+            "B": "Pranav Rajaram Warang",
+            "C": "16/07/2026",
+            "D": 10000,
+            "E": "-",
+            "F": 0,
+            "G": "=D76+F76",
+            "H": "Only XI Paid"
+          }
+        },
+        {
+          "row_number": 77,
+          "cells": {
+            "A": "=COUNT(A6:A76)",
+            "B": "=\"TOTAL (\" & COUNTA(B6:B76) & \" STUDENTS)\"",
+            "D": "=SUM(D6:D76)",
+            "F": "=SUM(F6:F76)",
+            "G": "=SUM(G6:G76)",
+            "H": "=\"Full Paid: \" & COUNTIF(H6:H76, \"Full Paid\") & \" | XII Pending: \" & COUNTIF(H6:H76, \"*Pending*\")"
+          }
+        }
+      ]
+    },
+    {
+      "sheet_name": "Batch 2025-26 All Pending",
+      "max_row": 35,
+      "max_column": 6,
+      "rows": [
+        {
+          "row_number": 1,
+          "cells": {
+            "A": "INTEGRATED FEES — PENDING STUDENTS TRACKER (RECOVERY & FOLLOW-UP LIST)"
+          }
+        },
+        {
+          "row_number": 2,
+          "cells": {
+            "A": "Complete List of 30 Students with Outstanding Fees (Batch 2025-26)"
+          }
+        },
+        {
+          "row_number": 4,
+          "cells": {
+            "A": "Sr. No.",
+            "B": "Student Name",
+            "C": "Academic Batch",
+            "D": "Class XI Status",
+            "E": "Class XII Status",
+            "F": "Pending Amount (₹)"
+          }
+        },
+        {
+          "row_number": 5,
+          "cells": {
+            "A": 1,
+            "B": "Kartike pankajkumar gupta",
+            "C": "Batch 2025-26",
+            "D": "Paid (₹10,000)",
+            "E": "Pending (₹0)",
+            "F": 10000
+          }
+        },
+        {
+          "row_number": 6,
+          "cells": {
+            "A": 2,
+            "B": "VAIBHAV KUMAR",
+            "C": "Batch 2025-26",
+            "D": "Paid (₹10,000)",
+            "E": "Pending (₹0)",
+            "F": 10000
+          }
+        },
+        {
+          "row_number": 7,
+          "cells": {
+            "A": 3,
+            "B": "Parth Pankaj Rane",
+            "C": "Batch 2025-26",
+            "D": "Paid (₹10,000)",
+            "E": "Pending (₹0)",
+            "F": 10000
+          }
+        },
+        {
+          "row_number": 8,
+          "cells": {
+            "A": 4,
+            "B": "Aditi  Sharma",
+            "C": "Batch 2025-26",
+            "D": "Paid (₹10,000)",
+            "E": "Pending (₹0)",
+            "F": 10000
+          }
+        },
+        {
+          "row_number": 9,
+          "cells": {
+            "A": 5,
+            "B": "Siya Sachin MHATRE",
+            "C": "Batch 2025-26",
+            "D": "Paid (₹10,000)",
+            "E": "Pending (₹0)",
+            "F": 10000
+          }
+        },
+        {
+          "row_number": 10,
+          "cells": {
+            "A": 6,
+            "B": "Ravi Narayanan Narayanan",
+            "C": "Batch 2025-26",
+            "D": "Paid (₹10,000)",
+            "E": "Pending (₹0)",
+            "F": 10000
+          }
+        },
+        {
+          "row_number": 11,
+          "cells": {
+            "A": 7,
+            "B": "Kherati Sunder",
+            "C": "Batch 2025-26",
+            "D": "Paid (₹10,000)",
+            "E": "Pending (₹0)",
+            "F": 10000
+          }
+        },
+        {
+          "row_number": 12,
+          "cells": {
+            "A": 8,
+            "B": "SIDDHI CHAUDHARI",
+            "C": "Batch 2025-26",
+            "D": "Paid (₹10,000)",
+            "E": "Pending (₹0)",
+            "F": 10000
+          }
+        },
+        {
+          "row_number": 13,
+          "cells": {
+            "A": 9,
+            "B": "Vedika Santosh Gore",
+            "C": "Batch 2025-26",
+            "D": "Paid (₹10,000)",
+            "E": "Pending (₹0)",
+            "F": 10000
+          }
+        },
+        {
+          "row_number": 14,
+          "cells": {
+            "A": 10,
+            "B": "Ishika Raju Arakh",
+            "C": "Batch 2025-26",
+            "D": "Paid (₹10,000)",
+            "E": "Pending (₹0)",
+            "F": 10000
+          }
+        },
+        {
+          "row_number": 15,
+          "cells": {
+            "A": 11,
+            "B": "Gargi Pankaj Patil Patil",
+            "C": "Batch 2025-26",
+            "D": "Paid (₹10,000)",
+            "E": "Pending (₹0)",
+            "F": 10000
+          }
+        },
+        {
+          "row_number": 16,
+          "cells": {
+            "A": 12,
+            "B": "Shurami Jadhav",
+            "C": "Batch 2025-26",
+            "D": "Paid (₹10,000)",
+            "E": "Pending (₹0)",
+            "F": 10000
+          }
+        },
+        {
+          "row_number": 17,
+          "cells": {
+            "A": 13,
+            "B": "Jui Pramod Mali",
+            "C": "Batch 2025-26",
+            "D": "Paid (₹10,000)",
+            "E": "Pending (₹0)",
+            "F": 10000
+          }
+        },
+        {
+          "row_number": 18,
+          "cells": {
+            "A": 14,
+            "B": "ARUNDEEPIKA MURMU",
+            "C": "Batch 2025-26",
+            "D": "Paid (₹10,000)",
+            "E": "Pending (₹0)",
+            "F": 10000
+          }
+        },
+        {
+          "row_number": 19,
+          "cells": {
+            "A": 15,
+            "B": "Anushka Sandeep Singh",
+            "C": "Batch 2025-26",
+            "D": "Paid (₹10,000)",
+            "E": "Pending (₹0)",
+            "F": 10000
+          }
+        },
+        {
+          "row_number": 20,
+          "cells": {
+            "A": 16,
+            "B": "Shreetej Vikas Shinde",
+            "C": "Batch 2025-26",
+            "D": "Paid (₹10,000)",
+            "E": "Pending (₹0)",
+            "F": 10000
+          }
+        },
+        {
+          "row_number": 21,
+          "cells": {
+            "A": 17,
+            "B": "Ishita Roy",
+            "C": "Batch 2025-26",
+            "D": "Paid (₹10,000)",
+            "E": "Pending (₹0)",
+            "F": 10000
+          }
+        },
+        {
+          "row_number": 22,
+          "cells": {
+            "A": 18,
+            "B": "Shivam Hariprasad Dev",
+            "C": "Batch 2025-26",
+            "D": "Paid (₹10,000)",
+            "E": "Pending (₹0)",
+            "F": 10000
+          }
+        },
+        {
+          "row_number": 23,
+          "cells": {
+            "A": 19,
+            "B": "NaVya Vijay Singh",
+            "C": "Batch 2025-26",
+            "D": "Paid (₹10,000)",
+            "E": "Pending (₹0)",
+            "F": 10000
+          }
+        },
+        {
+          "row_number": 24,
+          "cells": {
+            "A": 20,
+            "B": "Ketaki vishal khairnar",
+            "C": "Batch 2025-26",
+            "D": "Paid (₹10,000)",
+            "E": "Pending (₹0)",
+            "F": 10000
+          }
+        },
+        {
+          "row_number": 25,
+          "cells": {
+            "A": 21,
+            "B": "Samudyatha Hemappa Belagal",
+            "C": "Batch 2025-26",
+            "D": "Paid (₹10,000)",
+            "E": "Pending (₹0)",
+            "F": 10000
+          }
+        },
+        {
+          "row_number": 26,
+          "cells": {
+            "A": 22,
+            "B": "Sumita Sushil Sharma",
+            "C": "Batch 2025-26",
+            "D": "Paid (₹10,000)",
+            "E": "Pending (₹0)",
+            "F": 10000
+          }
+        },
+        {
+          "row_number": 27,
+          "cells": {
+            "A": 23,
+            "B": "Atharv Kesarwani",
+            "C": "Batch 2025-26",
+            "D": "Paid (₹10,000)",
+            "E": "Pending (₹0)",
+            "F": 10000
+          }
+        },
+        {
+          "row_number": 28,
+          "cells": {
+            "A": 24,
+            "B": "Preeti Balram Yadav",
+            "C": "Batch 2025-26",
+            "D": "Paid (₹10,000)",
+            "E": "Pending (₹0)",
+            "F": 10000
+          }
+        },
+        {
+          "row_number": 29,
+          "cells": {
+            "A": 25,
+            "B": "Arya Vikas Ajgaonkar",
+            "C": "Batch 2025-26",
+            "D": "Paid (₹10,000)",
+            "E": "Pending (₹0)",
+            "F": 10000
+          }
+        },
+        {
+          "row_number": 30,
+          "cells": {
+            "A": 26,
+            "B": "Isha Ugrasen Yadav",
+            "C": "Batch 2025-26",
+            "D": "Paid (₹10,000)",
+            "E": "Pending (₹0)",
+            "F": 10000
+          }
+        },
+        {
+          "row_number": 31,
+          "cells": {
+            "A": 27,
+            "B": "Ankan Abhijit Khanra",
+            "C": "Batch 2025-26",
+            "D": "Paid (₹10,000)",
+            "E": "Pending (₹0)",
+            "F": 10000
+          }
+        },
+        {
+          "row_number": 32,
+          "cells": {
+            "A": 28,
+            "B": "Aayushi Sadanand Epili",
+            "C": "Batch 2025-26",
+            "D": "Partial (₹5,000)",
+            "E": "Pending (₹0)",
+            "F": 15000
+          }
+        },
+        {
+          "row_number": 33,
+          "cells": {
+            "A": 29,
+            "B": "Dhanashree Shingne",
+            "C": "Batch 2025-26",
+            "D": "Paid (₹10,000)",
+            "E": "Pending (₹0)",
+            "F": 10000
+          }
+        },
+        {
+          "row_number": 34,
+          "cells": {
+            "A": 30,
+            "B": "Kshiti Dwarkadhish Gupta",
+            "C": "Batch 2025-26",
+            "D": "Paid (₹10,000)",
+            "E": "Pending (₹0)",
+            "F": 10000
+          }
+        },
+        {
+          "row_number": 35,
+          "cells": {
+            "A": "=COUNT(A5:A34)",
+            "B": "=\"TOTAL (\" & COUNTA(B5:B34) & \" PENDING STUDENTS)\"",
+            "C": "=\"25-26: \" & COUNTIF(C5:C34, \"Batch 2025-26\") & \" | 26-27: \" & COUNTIF(C5:C34, \"Batch 2026-27\")",
+            "F": "=SUM(F5:F34)"
+          }
+        }
+      ]
+    }
+  ]
+}

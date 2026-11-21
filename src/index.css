@@ -1,0 +1,139 @@
+@import "tailwindcss";
+
+@theme {
+  /* Unified crisp financial typography — single consistent texture with tabular numerals */
+  --font-display: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+@layer base {
+  :root {
+    /* Crisp High-Clarity Ledger Surface & Contrast Tokens */
+    --surface: #eef2f6;
+    --surface-lowest: #ffffff;
+    --surface-low: #f1f5f9;
+    --surface-container: #e2e8f0;
+    --surface-high: #cbd5e1;
+    --primary: #005c55;
+    --primary-hover: #0f766e;
+    --primary-fixed: #9cf2e8;
+    --secondary: #006c49;
+    --secondary-soft: #e6f7ef;
+    --tertiary: #9a4a00;
+    --tertiary-fixed: #ffedd5;
+    --error: #b91c1c;
+    --error-soft: #fee2e2;
+    --ink: #0f172a;
+    --ink-muted: #475569;
+    --outline: #cbd5e1;
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    color: var(--ink);
+    background-color: var(--surface);
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+    letter-spacing: -0.015em;
+  }
+
+  button:focus-visible,
+  a:focus-visible,
+  input:focus-visible,
+  select:focus-visible,
+  textarea:focus-visible {
+    outline: 2px solid #005c55;
+    outline-offset: 2px;
+  }
+}
+
+/* Consistent tabular figure alignment without monospace texture clash */
+.font-mono,
+.tabular-nums {
+  font-family: var(--font-sans);
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1, "lnum" 1;
+}
+
+/* Harmonize legacy pale lavender-white tokens into crisp, high-contrast ledger surfaces.
+   Unlayered so these cleanly override Tailwind v4 generated @layer utilities arbitrary tokens. */
+.bg-\[\#faf8ff\] {
+  background-color: #eef2f6;
+}
+.bg-\[\#f2f3ff\] {
+  background-color: #edf2f7;
+}
+.bg-\[\#eaedff\] {
+  background-color: #dde5ef;
+}
+.bg-\[\#e2e7ff\] {
+  background-color: #d6e0ec;
+}
+.border-\[\#f2f3ff\] {
+  border-color: #dce4ee;
+}
+.border-\[\#eaedff\] {
+  border-color: #cbd5e1;
+}
+.divide-\[\#f2f3ff\] > :not(:last-child) {
+  border-color: #e2e8f0;
+}
+.text-\[\#131b2e\] {
+  color: #0f172a;
+}
+.text-\[\#3e4947\] {
+  color: #475569;
+}
+.text-\[\#bdc9c6\] {
+  color: #64748b;
+}
+.hover\:bg-\[\#faf8ff\]:hover {
+  background-color: #f1f5f9;
+}
+.hover\:bg-\[\#f2f3ff\]:hover {
+  background-color: #e2e8f0;
+}
+.hover\:bg-\[\#e2e7ff\]:hover {
+  background-color: #cbd5e1;
+}
+.shadow-\[0_1px_8px_rgba\(19\,27\,46\,0\.04\)\] {
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.06), 0 0 0 1px #dce4ee;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+
+  body.printing-receipt * {
+    visibility: hidden !important;
+  }
+
+  body.printing-receipt #official-receipt-print-sheet,
+  body.printing-receipt #official-receipt-print-sheet * {
+    visibility: visible !important;
+  }
+
+  body.printing-receipt #official-receipt-print-sheet {
+    position: fixed !important;
+    inset: 0 !important;
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 12mm !important;
+    background: #ffffff !important;
+    box-shadow: none !important;
+    border: none !important;
+    z-index: 9999 !important;
+  }
+}
